@@ -97,9 +97,5 @@ extension AuroraLayerView: CALayerDelegate, NSViewLayerContentScaleDelegate {
     public func layer(_ layer: CALayer, shouldInheritContentsScale newScale: CGFloat, from window: NSWindow) -> Bool {
         return true
     }
-    
-//    public func layer(_ layer: CALayer, shouldInheritContentsScale newScale: CGFloat, from window: NSWindow) -> Bool {
-//        return true
-//    }
-//
+
 }
