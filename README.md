@@ -2,6 +2,7 @@
 
 Showcasing a technique used to create performant Aurora gradients (blurred blobs) in SwiftUI on macOS.
 
+![Aurora View](blobs.jpg)
 
 ## Problem
 To achieve this effect in SwiftUI, you would typically create Shapes and using the `.blur` modifier.
