@@ -10,5 +10,5 @@ This would incur a heavy performance penalty while animating (up to 50% CPU).
 
 ## Solution
 By using a CALayer and Core Animation to animate the blobs, we can offload all the work to the WindowServer & GPU. The result is an app CPU utilization of 0%.
-A CALayer overlay is also used a noise filter to smooth out the banding artifacts that are common in blurred color gradients.
+A CALayer overlay is also used as a noise filter to smooth out the banding artifacts that are common in blurred color gradients.
 A NSViewRepresentable is used to make everything accessible from SwiftUI.
